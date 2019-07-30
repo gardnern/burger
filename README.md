@@ -1,7 +1,7 @@
 # burger
 EAT-DA-BURGER! https://frozen-mesa-93225.herokuapp.com/
 
-##The application demonstrates a simple full stack application
+The application demonstrates a simple full stack application
 
 The front end is implemented with HTML/CSS and Bootstrap.
 The back end is implemented with Node.js and Express. HTML templating is done with the help of Handlebars.
