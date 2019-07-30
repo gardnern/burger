@@ -1,5 +1,5 @@
 html {
-    background-color: sandybrown;
+    background-color: rgba(236, 132, 41, 0.842);
 }
 
 body {
@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     background-color: #fbc02d;
 }
-.burgerAvailable {
+/* .burgerAvailable {
     font-family:  Arial, Helvetica, sans-serif, cursive;
     font-weight: normal;
     font-size: 20px;
@@ -21,7 +21,7 @@ body {
     padding: 10px;
     background-color: lightslategray;
     border: none;
-}
+} */
 .burger {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, cursive;
     font-weight: bold;
@@ -38,49 +38,43 @@ h1 {
     text-align: center;
 }
 
-
-.burgerAvailable:hover {
-    background-color: lightskyblue;
-}
-
-
 h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     margin: 50px;
-}
-
-.formContainer {
-    background-color: lightslategray;
-}
-
-.addBurgerButton {
-    font-family: 'Crafty Girls', cursive;
-    font-weight: normal;
-    font-size: 20px;
-    text-align: center;
-    border-radius: 25px;
-    width: 25%;
-    margin: 25px;
-}
-
-.addBurgerButton:active {
-   background-color: greenyellow;
-}
-
-.burgerFooter {
-   background-color: salmon;
-   padding: 20px 0;
-}
-
-.btn-success {
     font-weight: bold;
-    font-size: 25px;
+}
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+}
+.btn {
+    font-weight: bold;
+    font-size: 30px;
     align-content: center;
     text-align: center;
-    border-radius: 25px center;
-    width: 50%;
+    border-radius: 25px;
+    width: 72%;
     margin: 0;
 }
 
+.form-control {
+    display: block;
+    width: 75%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 1rem 0rem;
+    font-size: 5rem;
+    font-weight: 200;
+    line-height: 4.5;
+    color: #d8dee5;
+    background-color: #FFE;
+    background-clip: padding-box;
+    border: 15px solid #000;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: #c6bfbc;
+}

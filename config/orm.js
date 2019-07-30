@@ -71,7 +71,7 @@ var orm = {
     });
   },
   // An example of objColVals would be {name: panther, sleepy: true}
-  update: function(table, objColVals, devoured, cb) {
+  update: function(table, objColVals, _condition, cb) {
     var queryString = "UPDATE " + table;
 
     queryString += " SET ";
@@ -88,7 +88,7 @@ var orm = {
       cb(result);
     });
   },
-  delete: function(table, devoured, cb) {
+  delete: function(table, _condition, cb) {
     var queryString = "DELETE FROM " + table;
     queryString += " WHERE ";
     queryString += devoured;
